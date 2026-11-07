@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="src/Sheeter.csproj" />
+  <Project Path="tests/SheeterTests.csproj" />
+</Solution>
