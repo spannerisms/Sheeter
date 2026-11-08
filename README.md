@@ -1,4 +1,6 @@
-﻿# Sheeter
+﻿[![NuGet version (Spannerisms.Sheeter)](https://img.shields.io/nuget/v/Spannerisms.Sheeter.svg)](https://www.nuget.org/packages/Spannerisms.Sheeter/)
+
+# Sheeter
 
 Sheeter is a high-performance .NET library for converting retro game graphics formats to and from indexed pixel data. Sheeter is available from nuget.org as the package `Spannerisms.Sheeter`.
 
