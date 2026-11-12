@@ -36,7 +36,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Content Include="sheeter.ico" />
+    <None Include="sheeter.ico" />
   </ItemGroup>
 
   <ItemGroup>
