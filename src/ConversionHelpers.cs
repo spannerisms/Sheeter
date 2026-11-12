@@ -219,7 +219,7 @@ internal static class ConversionHelpers {
 
 	internal static void PlanarToIndexed<T>(scoped ref readonly byte convRef, scoped IndexedTileViewport indexedData)
 			where T : unmanaged, IConvertibleTile<T> {
-		PlanarToIndexed(in convRef, ref indexedData._reference, IndexedTile.TileDimension, indexedData._bytesPerRow, T.ConversionType);
+		PlanarToIndexed(in convRef, ref indexedData._reference, indexedData._bytesPerRow, T.BitsPerPixel, T.ConversionType);
 	}
 
 	[MethodImpl(MethodImplOptions.AggressiveInlining)]
