@@ -1,6 +1,4 @@
-﻿using System.Drawing;
-
-namespace Sheeter.Nes;
+﻿namespace Sheeter.Nes;
 
 /// <summary>
 /// Represents a 64-color NES PPU palette.
