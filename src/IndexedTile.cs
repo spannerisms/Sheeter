@@ -263,7 +263,7 @@ public struct IndexedTile : ITileData<IndexedTile> {
 
 	/// <inheritdoc cref="ITileData{TSelf}.CopyTo(ref TSelf)"/>
 	public readonly void CopyTo(scoped IndexedTileViewport destination) {
-		CopyToScalar(in _tileData, Length, ref destination._reference, destination._bytesPerRow);
+		CopyToScalar(in _tileData, TileDimension, ref destination._reference, destination._bytesPerRow);
 	}
 
 	/// <summary>
